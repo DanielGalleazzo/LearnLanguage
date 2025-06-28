@@ -3,8 +3,53 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Bem-vindo ao site que irá te ensinar inglês</h1>
-    <p>Vamos começar ?</p>
+    <h1 class="display-4">Bem-vindo ao site que irá te ensinar outro idioma</h1>
+    <p id="VamosComecar">Vamos começar ?</p>
     <button id="botaoInterfaceSim">Sim</button>
     <button id="botaoInterfaceNao">Não</button>
+    <div id="containerNome"></div>
+    <div id="containerIdioma"></div>
+    <div id="containerNao"></div>
 </div>
+
+<script>
+    const botaoSim = document.getElementById("botaoInterfaceSim");
+    const botaoNao = document.getElementById("botaoInterfaceNao");
+
+    const containerNome = document.getElementById("containerNome");
+    const containerIdioma = document.getElementById("containerIdioma");
+    const containerNao = document.getElementById("containerNao");
+
+    botaoSim.addEventListener("click", function () {
+        if (!containerNome.querySelector("textarea")) {
+            const textNome = document.createElement("textarea");
+            textNome.setAttribute("rows", "1");
+            textNome.setAttribute("cols", "50");
+            textNome.setAttribute("placeholder", "Qual é o seu nome?");
+            containerNome.appendChild(textNome);
+        }
+
+        if (!containerIdioma.querySelector("textarea")) {
+            const textIdioma = document.createElement("textarea");
+            textIdioma.setAttribute("rows", "1");
+            textIdioma.setAttribute("cols", "50");
+            textIdioma.setAttribute("placeholder", "Qual idioma você quer estudar?");
+            containerIdioma.appendChild(textIdioma);
+        }
+
+        containerNao.innerHTML = "";
+    });
+
+    botaoNao.addEventListener("click", function () {
+        if (!containerNao.querySelector("textarea")) {
+            const textNao = document.createElement("textarea");
+            textNao.setAttribute("rows", "1");
+            textNao.setAttribute("cols", "50");
+            textNao.setAttribute("placeholder", "Qual motivo você não quer começar?");
+            containerNao.appendChild(textNao);
+        }
+
+        containerNome.innerHTML = "";
+        containerIdioma.innerHTML = "";
+    });
+</script>
