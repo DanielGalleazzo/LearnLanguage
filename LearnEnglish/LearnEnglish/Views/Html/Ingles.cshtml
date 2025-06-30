@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Inglês";
+}
+
+<h1 id="BemVindoX">Bem vindo</h1>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const nome = localStorage.getItem("nomeUsuario");
+        if (nome) {
+            const titulo = document.getElementById("BemVindoX");
+            if (titulo) {
+                titulo.textContent = `Bem-vindo, ${nome}!`;
+            }
+        }
+    });
+</script>
