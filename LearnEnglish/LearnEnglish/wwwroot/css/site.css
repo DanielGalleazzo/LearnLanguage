@@ -42,3 +42,8 @@ body {
 #idiomaInput {
     width: 150px;
 }
+#botaoEnviar {
+    display: none;
+    margin-top: 10px;
+    margin: auto;
+}

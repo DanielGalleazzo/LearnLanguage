@@ -11,7 +11,7 @@
     <div id="containerIdioma"></div>
     <div id="containerNao"></div>
     <div>
-        <button id="botaoEnviar" style="margin-top:10px;">Enviar</button>
+        <button id="botaoEnviar">Enviar</button>
     </div>
 </div>
  
@@ -25,6 +25,7 @@
     const containerNao = document.getElementById("containerNao");
 
     botaoSim.addEventListener("click", function () {
+        document.getElementById("botaoEnviar").style.display = "block";
         if (!containerNome.querySelector("textarea")) {
             const textNome = document.createElement("textarea");
             textNome.setAttribute("rows", "1");
