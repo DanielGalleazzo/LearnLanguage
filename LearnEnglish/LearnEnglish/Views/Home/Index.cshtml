@@ -16,7 +16,7 @@
 </div>
  
 <script>
-        const botaoSim = document.getElementById("botaoInterfaceSim");
+    const botaoSim = document.getElementById("botaoInterfaceSim");
     const botaoNao = document.getElementById("botaoInterfaceNao");
     const botaoEnviar = document.getElementById("botaoEnviar");
 
@@ -34,12 +34,20 @@
             containerNome.appendChild(textNome);
         }
 
-        if (!containerIdioma.querySelector("textarea")) {
-            const textIdioma = document.createElement("textarea");
-            textIdioma.setAttribute("rows", "1");
-            textIdioma.setAttribute("cols", "50");
-            textIdioma.setAttribute("placeholder", "Qual idioma você quer estudar?");
+        if (!containerIdioma.querySelector("select")) {
+            const textIdioma = document.createElement("select");
             textIdioma.id = "idiomaInput";
+
+            const opcoes = ["ingles", "frances", "espanhol"];
+            const nomes = ["Inglês", "Francês", "Espanhol"];
+
+            opcoes.forEach((valor, index) => {
+                const option = document.createElement("option");
+                option.value = valor;
+                option.text = nomes[index];
+                textIdioma.appendChild(option);
+            });
+
             containerIdioma.appendChild(textIdioma);
         }
 
@@ -74,8 +82,6 @@
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ nome, idioma })
-        })
-        
+        });
     });
-
 </script>
