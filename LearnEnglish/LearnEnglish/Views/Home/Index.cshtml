@@ -10,11 +10,15 @@
     <div id="containerNome"></div>
     <div id="containerIdioma"></div>
     <div id="containerNao"></div>
+    <div>
+        <button id="botaoEnviar" style="margin-top:10px;">Enviar</button>
+    </div>
 </div>
-
+ 
 <script>
-    const botaoSim = document.getElementById("botaoInterfaceSim");
+        const botaoSim = document.getElementById("botaoInterfaceSim");
     const botaoNao = document.getElementById("botaoInterfaceNao");
+    const botaoEnviar = document.getElementById("botaoEnviar");
 
     const containerNome = document.getElementById("containerNome");
     const containerIdioma = document.getElementById("containerIdioma");
@@ -26,6 +30,7 @@
             textNome.setAttribute("rows", "1");
             textNome.setAttribute("cols", "50");
             textNome.setAttribute("placeholder", "Qual é o seu nome?");
+            textNome.id = "nomeInput";
             containerNome.appendChild(textNome);
         }
 
@@ -34,6 +39,7 @@
             textIdioma.setAttribute("rows", "1");
             textIdioma.setAttribute("cols", "50");
             textIdioma.setAttribute("placeholder", "Qual idioma você quer estudar?");
+            textIdioma.id = "idiomaInput";
             containerIdioma.appendChild(textIdioma);
         }
 
@@ -52,4 +58,24 @@
         containerNome.innerHTML = "";
         containerIdioma.innerHTML = "";
     });
+
+    botaoEnviar.addEventListener("click", function () {
+        const nome = document.getElementById("nomeInput")?.value;
+        const idioma = document.getElementById("idiomaInput")?.value;
+
+        if (!nome || !idioma) {
+            alert("Por favor, preencha o nome e o idioma.");
+            return;
+        }
+
+        fetch("/UsuarioIdioma/Create", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ nome, idioma })
+        })
+        
+    });
+
 </script>
