@@ -7,10 +7,7 @@
     const containerIdioma = document.getElementById("containerIdioma");
     const containerNao = document.getElementById("containerNao");
 
-    if (!botaoSim || !botaoNao || !botaoEnviar || !containerNome || !containerIdioma || !containerNao) {
-        console.error("Um ou mais elementos necessários não foram encontrados no DOM.");
-        return;
-    }
+ 
 
     botaoSim.addEventListener("click", function () {
         botaoEnviar.style.display = "block";

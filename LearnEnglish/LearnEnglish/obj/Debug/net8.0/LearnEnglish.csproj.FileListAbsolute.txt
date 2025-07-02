@@ -32,7 +32,6 @@ C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\obj\Debug\net8.0\r
 C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\obj\Debug\net8.0\LearnEnglish.pdb
 C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\obj\Debug\net8.0\LearnEnglish.genruntimeconfig.cache
 C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\obj\Debug\net8.0\ref\LearnEnglish.dll
-C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\obj\Debug\net8.0\LearnEnglish.sourcelink.json
 C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\danie\Desktop\LearnEnglish\LearnEnglish\LearnEnglish\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll

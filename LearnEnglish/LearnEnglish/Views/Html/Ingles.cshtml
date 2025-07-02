@@ -17,6 +17,11 @@
     <button id="botaoInglesAmador" style="background-color:green; width:200px; height:100px;">Consigo falar</button>
     <button id="botaoInglesFluente" style="background-color:blue; color: white; width:200px; height:100px;">Fluente</button>
 </div>
+<div id="TesteRapido" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-size: 24px;">Vamos fazer um rápido teste em base da sua resposta ?</p>
+    <button style="width: 200px; height: 60px;">Vamos</button>
+    <button style="width: 200px; height: 60px;">Deixa para outra hora</button>
+</div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -27,5 +32,12 @@
                 titulo.textContent = `Bem-vindo, ${nome}!`;
             }
         }
+
+        const botaoNaoSei = document.getElementById("BotaoInglesNaoSei");
+        const novasOpcoes = document.getElementById("TesteRapido");
+
+        botaoNaoSei.addEventListener("click", function () {
+            novasOpcoes.style.display = "block";
+        });
     });
 </script>
