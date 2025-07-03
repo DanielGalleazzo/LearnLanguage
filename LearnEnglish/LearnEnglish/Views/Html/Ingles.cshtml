@@ -34,10 +34,22 @@
         }
 
         const botaoNaoSei = document.getElementById("BotaoInglesNaoSei");
-        const novasOpcoes = document.getElementById("TesteRapido");
+        const TesteRapidoBotoes = document.getElementById("TesteRapido");
+		const botaoInglesIniciante = document.getElementById("botaoInglesIniciante");
+		const botaoInglesAmador = document.getElementById("botaoInglesAmador");
+		const botaoInglesFluente = document.getElementById("botaoInglesFluente");
 
         botaoNaoSei.addEventListener("click", function () {
-            novasOpcoes.style.display = "block";
+            TesteRapidoBotoes.style.display = "block";
         });
-    });
+		botaoInglesIniciante.addEventListener("click", function () {
+			TesteRapidoBotoes.style.display = "block";
+		});
+		botaoInglesAmador.addEventListener("click", function () {
+			TesteRapidoBotoes.style.display = "block";
+		});
+		botaoInglesFluente.addEventListener("click", function () {
+			TesteRapidoBotoes.style.display = "block";
+		});
+        });
 </script>
