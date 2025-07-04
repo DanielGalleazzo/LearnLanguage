@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "itqERtT9kbptL28cuDmtl6cjMDQI9k8RWJ7rq9E6KRI=",
+  "Hash": "wGNGYYRii2nWK4jQ6zfrYwji4mi6xmdKSE6KzWfNbYA=",
   "Source": "LearnEnglish",
   "BasePath": "_content/LearnEnglish",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "q2fu3bnzaa",
-      "Integrity": "0sb2OAh6LJMwY6heNO/FxaOX6RDfkMQVbUV2NPpr67k=",
+      "Fingerprint": "08qf161ofa",
+      "Integrity": "gESPD7iAyoX4V6g+NjK2ZwSHzQl41NWAX+92qQ7sNjU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1485,6 +1485,51 @@
       ]
     },
     {
+      "Route": "js/site.08qf161ofa.js",
+      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gESPD7iAyoX4V6g+NjK2ZwSHzQl41NWAX+92qQ7sNjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 01:05:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "08qf161ofa"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gESPD7iAyoX4V6g+NjK2ZwSHzQl41NWAX+92qQ7sNjU="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1495,7 +1540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5336"
+          "Value": "5644"
         },
         {
           "Name": "Content-Type",
@@ -1503,11 +1548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0sb2OAh6LJMwY6heNO/FxaOX6RDfkMQVbUV2NPpr67k=\""
+          "Value": "\"gESPD7iAyoX4V6g+NjK2ZwSHzQl41NWAX+92qQ7sNjU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 02:34:35 GMT"
+          "Value": "Fri, 04 Jul 2025 01:05:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,52 +1562,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0sb2OAh6LJMwY6heNO/FxaOX6RDfkMQVbUV2NPpr67k="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.q2fu3bnzaa.js",
-      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5336"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0sb2OAh6LJMwY6heNO/FxaOX6RDfkMQVbUV2NPpr67k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Jul 2025 02:34:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q2fu3bnzaa"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0sb2OAh6LJMwY6heNO/FxaOX6RDfkMQVbUV2NPpr67k="
+          "Value": "sha256-gESPD7iAyoX4V6g+NjK2ZwSHzQl41NWAX+92qQ7sNjU="
         }
       ]
     },

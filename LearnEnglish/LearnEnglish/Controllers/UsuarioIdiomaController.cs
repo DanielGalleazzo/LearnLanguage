@@ -20,6 +20,6 @@ public class UsuarioIdiomaController : Controller
             _context.SaveChanges();
             return Ok();
         }
-        return BadRequest(ModelState);
+        return BadRequest(ModelState); // NESSA ABA ESTA O PROBLEMA !! PRESTAR ATENCAO
     }
 }

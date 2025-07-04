@@ -122,12 +122,14 @@
 
         localStorage.setItem("nomeUsuario", nomeNao);
 
-        fetch("/UsuarioIdioma/Create", {
+        fetch("/UsuarioMotivo/Create", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ nome: nomeNao, idioma: motivo })
+            body: JSON.stringify({Nome:  nomeNao,Motivo:  motivo })     // Essas informações estão sendo enviadas para o mesmo DB
+                                                                        // que o cadastro do nome e o idioma desejado
+                                                                        // criar novo banco de dados para nome e motivo!!!
         })
             .then(response => {
                 if (response.ok) {
