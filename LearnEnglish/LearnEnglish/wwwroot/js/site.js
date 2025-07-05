@@ -1,19 +1,21 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
-    const botaoSim = document.getElementById("botaoInterfaceSim");
-    const botaoNao = document.getElementById("botaoInterfaceNao");
+    const botaoInterfaceSim = document.getElementById("botaoInterfaceSim");
+    const botaoInterfaceNao = document.getElementById("botaoInterfaceNao");
     const botaoEnviar = document.getElementById("botaoEnviar");
     const botaoEnviarNao = document.getElementById("botaoEnviarNao");
 
     const containerNome = document.getElementById("containerNome");
     const containerIdioma = document.getElementById("containerIdioma");
     const containerNao = document.getElementById("containerNao");
-    const MotivoNaoComecar = document.getElementById("MotivoNaoComecar");
+    const containerNao = document.getElementById("containerNao");
 
-
+    botaoEnviar.style.display = "none";
+    botaoEnviarNao.style.display = "none";
 
     botaoSim.addEventListener("click", function () {
-        botaoEnviar.style.display = "block";
-        botaoEnviarNao.style.display = "none";
+        console.log("DIV NAO DESATIVA!");
+        const divNao = document.getElementById("divNao");
+        divNao.style.display = "none"
 
         if (!containerNome.querySelector("textarea")) {
             const textNome = document.createElement("textarea");
@@ -46,8 +48,9 @@
     });
 
     botaoNao.addEventListener("click", function () {
-        botaoEnviar.style.display = "none";
-        botaoEnviarNao.style.display = "block";
+        console.log("DIV SIM DESATIVA!");
+        const divSim = document.getElementById("divSim");
+        divSim.style.display = "none"
 
         if (!containerNao.querySelector("textarea")) {
             const textNomeNao = document.createElement("textarea");
@@ -81,6 +84,7 @@
     });
 
     botaoEnviar.addEventListener("click", function () {
+        console.log("SIM!");
         const nome = document.getElementById("nomeInput")?.value;
         const idioma = document.getElementById("idiomaInput")?.value;
         
@@ -112,6 +116,7 @@
     });
 
     botaoEnviarNao.addEventListener("click", function () {
+        console.log("NAO!");
         const nomeNao = document.getElementById("nomeNaoInput")?.value;
         const motivo = document.getElementById("motivoInput")?.value;
 
@@ -131,13 +136,7 @@
                                                                         // que o cadastro do nome e o idioma desejado
                                                                         // criar novo banco de dados para nome e motivo!!!
         })
-            .then(response => {
-                if (response.ok) {
-                    window.open("/Html/Ingles", "_blank");
-                } else {
-                    alert("Erro ao enviar os dados.");
-                }
-            })
+            
             .catch(error => {
                 console.error("Erro:", error);
                 alert("Erro na requisição.");
