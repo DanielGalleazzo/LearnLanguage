@@ -7,15 +7,14 @@
     const containerNome = document.getElementById("containerNome");
     const containerIdioma = document.getElementById("containerIdioma");
     const containerNao = document.getElementById("containerNao");
-    const containerNao = document.getElementById("containerNao");
+    const MotivoNaoComecar = document.getElementById("MotivoNaoComecar");
 
     botaoEnviar.style.display = "none";
     botaoEnviarNao.style.display = "none";
 
-    botaoSim.addEventListener("click", function () {
-        console.log("DIV NAO DESATIVA!");
+    botaoInterfaceSim.addEventListener("click", function () {
         const divNao = document.getElementById("divNao");
-        divNao.style.display = "none"
+        divNao.style.display = "none";
 
         if (!containerNome.querySelector("textarea")) {
             const textNome = document.createElement("textarea");
@@ -45,12 +44,13 @@
 
         containerNao.innerHTML = "";
         MotivoNaoComecar.innerHTML = "";
+        botaoEnviar.style.display = "block";
+        botaoEnviarNao.style.display = "none";
     });
 
-    botaoNao.addEventListener("click", function () {
-        console.log("DIV SIM DESATIVA!");
+    botaoInterfaceNao.addEventListener("click", function () {
         const divSim = document.getElementById("divSim");
-        divSim.style.display = "none"
+        divSim.style.display = "none";
 
         if (!containerNao.querySelector("textarea")) {
             const textNomeNao = document.createElement("textarea");
@@ -60,7 +60,6 @@
             textNomeNao.id = "nomeNaoInput";
             containerNao.appendChild(textNomeNao);
         }
-
 
         if (!MotivoNaoComecar.querySelector("select")) {
             const textMotivo = document.createElement("select");
@@ -81,18 +80,19 @@
 
         containerNome.innerHTML = "";
         containerIdioma.innerHTML = "";
+        botaoEnviar.style.display = "none";
+        botaoEnviarNao.style.display = "block";
     });
 
     botaoEnviar.addEventListener("click", function () {
-        console.log("SIM!");
         const nome = document.getElementById("nomeInput")?.value;
         const idioma = document.getElementById("idiomaInput")?.value;
-        
+
         if (!nome || !idioma) {
             alert("Por favor, preencha o nome e o idioma para podermos avançar.");
             return;
         }
-        
+
         localStorage.setItem("nomeUsuario", nome);
 
         fetch("/UsuarioIdioma/Create", {
@@ -116,7 +116,6 @@
     });
 
     botaoEnviarNao.addEventListener("click", function () {
-        console.log("NAO!");
         const nomeNao = document.getElementById("nomeNaoInput")?.value;
         const motivo = document.getElementById("motivoInput")?.value;
 
@@ -132,15 +131,11 @@
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({Nome:  nomeNao,Motivo:  motivo })     // Essas informações estão sendo enviadas para o mesmo DB
-                                                                        // que o cadastro do nome e o idioma desejado
-                                                                        // criar novo banco de dados para nome e motivo!!!
+            body: JSON.stringify({ Nome: nomeNao, Motivo: motivo })
         })
-            
             .catch(error => {
                 console.error("Erro:", error);
                 alert("Erro na requisição.");
             });
     });
 });
-
