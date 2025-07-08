@@ -82,7 +82,7 @@
     <br /><br />
     <button id="avancarQuintaPerguntaNaoSei">Finalizar teste</button>
 </div>
-
+<!--Perguntas outro botão-->
 <div id="PrimeiraPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
     <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
         Como eu posso dizer "obrigado" em inglês?
@@ -193,9 +193,11 @@
         
 
         let usuarioNaoSabeIngles = false;
+        let usuarioIniciante = false;
 
         botaoNaoSei.addEventListener("click", () => {
             usuarioNaoSabeIngles = true;
+            usuarioIniciante = false;
             PrimeirosBotoes.style.display = "none";
             BotoesRestantes.style.display = "none";
             TesteRapidoBotoes.style.display = "block";
@@ -203,6 +205,7 @@
 
         botaoInglesIniciante.addEventListener("click", () => {
             usuarioNaoSabeIngles = false;
+            usuarioIniciante = true;
             PrimeirosBotoes.style.display = "none";
             BotoesRestantes.style.display = "none";
             TesteRapidoBotoes.style.display = "block";
@@ -210,6 +213,7 @@
 
         botaoInglesAmador.addEventListener("click", () => {
             usuarioNaoSabeIngles = false;
+            usuarioIniciante = false;
             PrimeirosBotoes.style.display = "none";
             BotoesRestantes.style.display = "none";
             TesteRapidoBotoes.style.display = "block";
@@ -217,6 +221,7 @@
 
         botaoInglesFluente.addEventListener("click", () => {
             usuarioNaoSabeIngles = false;
+            usuarioIniciante = false;
             PrimeirosBotoes.style.display = "none";
             BotoesRestantes.style.display = "none";
             TesteRapidoBotoes.style.display = "block";
@@ -227,6 +232,9 @@
             if (usuarioNaoSabeIngles) {
                 PrimeiraPergunta.style.display = "block";
             }
+			else if (usuarioIniciante) {
+				PrimeiraPerguntaIniciante.style.display = "block";
+			} 
            
         });
 
@@ -252,7 +260,29 @@
 
         avancarQuintaPerguntaNaoSei.addEventListener("click", () => {
             QuintaPerguntaNaoSei.style.display = "none";
-            alert("Teste finalizado! Obrigado por participar.");
+            alert("Registrando suas respostas"); // pensar em como salvar as alternativas clicadas pelo usuario e contar quantas ele acertou
         });
+        avancarPrimeiraPerguntaIniciante.addEventListener("click", function (){
+			PrimeiraPerguntaIniciante.style.display = "none";
+			SegundaPerguntaIniciante.style.display = "block";
+        });
+		avancarSegundaPerguntaIniciante.addEventListener("click", function (){
+			SegundaPerguntaIniciante.style.display = "none";
+			TerceiraPerguntaIniciante.style.display = "block";
+		});
+		avancarTerceiraPerguntaIniciante.addEventListener("click", function (){
+			TerceiraPerguntaIniciante.style.display = "none";
+			QuartaPerguntaIniciante.style.display = "block";
+        });
+		avancarQuartaPerguntaIniciante.addEventListener("click", function (){
+			QuartaPerguntaIniciante.style.display = "none";
+			QuintaPerguntaIniciante.style.display = "block";
+		});
+		avancarQuintaPerguntaIniciante.addEventListener("click", function (){
+			QuintaPerguntaIniciante.style.display = "none";
+			alert("Registrando suas respostas "); // pensar em como salvar as alternativas clicadas pelo usuario e contar quantas ele acertou
+
+    });
+
     });
 </script>
