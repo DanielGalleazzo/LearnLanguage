@@ -1,0 +1,288 @@
+﻿@{
+    ViewData["Title"] = "Francês";
+}
+
+<h1 id="BemVindoX">Bem-vindo</h1>
+<br />
+<br />
+
+<p id="QualNivelIngles" style="font-size:30px; text-align: center;">Qual é o seu nível de frances?</p>
+
+<div id="PrimeirosBotoes" style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px;">
+    <button id="BotaoInglesNaoSei" style="background-color:aqua; width:200px; height:100px;">Nunca estudei</button>
+    <button id="botaoInglesIniciante" style="background-color:aqua; width:200px; height:100px;">Sou iniciante</button>
+</div>
+
+<div id="BotoesRestantes" style="display: flex; justify-content: center; gap: 20px;">
+    <button id="botaoInglesAmador" style="background-color:aqua; width:200px; height:100px;">Consigo falar</button>
+    <button id="botaoInglesFluente" style="background-color:aqua; color: white; width:200px; height:100px;">Fluente</button>
+</div>
+
+<div id="TesteRapido" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-size: 24px;">Vamos fazer um rápido teste em base da sua resposta ?</p>
+    <button id="VamosBotao" style="width: 200px; height: 60px;">Vamos!</button>
+    <button id="OutraHoraBotao" style="width: 200px; height: 60px;">Deixa para outra hora</button>
+</div>
+
+<div id="PrimeiraPerguntaNaoSei" style="display: none; text-align: center; margin-top: 30px;">
+    <p id="PrimeiraPNaoSei" style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
+        Como eu posso dizer eu te amo para alguém ?
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 01/05</p>
+    <button>Je te aime</button>
+    <button>Te quiero</button>
+    <button>I love you</button>
+    <button>Eu te amo</button>
+    <br /><br />
+    <button id="avancarPrimeiraPerguntaNaoSei">Avançar</button>
+</div>
+
+<div id="SegundaPerguntaNaoSei" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
+        Como eu posso dizer "olá" para alguém ?
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 02/05</p>
+    <button>Hello</button>
+    <button>Helo</button>
+    <button>Helloh</button>
+    <button>Hellow</button>
+    <br /><br />
+    <button id="avancarSegundaPerguntaNaoSei">Avançar</button>
+</div>
+
+<div id="TerceiraPerguntaNaoSei" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">Como é "azul" em inglês ?</p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 03/05</p>
+    <button>Red</button>
+    <button>Blui</button>
+    <button>Helloh</button>
+    <button>Hellow</button>
+    <br /><br />
+    <button id="avancarTerceiraPerguntaNaoSei">Avançar</button>
+</div>
+
+<div id="QuartaPerguntaNaoSei" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">Como é "um, dois e três" em inglês ?</p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 04/05</p>
+    <button>Uno, dos, tres</button>
+    <button>Une, thow,three</button>
+    <button>One, two, three</button>
+    <button>Um, dois, três</button>
+    <br /><br />
+    <button id="avancarQuartaPerguntaNaoSei">Avançar</button>
+</div>
+
+<div id="QuintaPerguntaNaoSei" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">Como é "idade" em inglês ?</p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 05/05</p>
+    <button>Agi</button>
+    <button>Age</button>
+    <button>Aghe</button>
+    <button>Agew</button>
+    <br /><br />
+    <button id="avancarQuintaPerguntaNaoSei">Finalizar teste</button>
+</div>
+<!--Perguntas outro botão-->
+<div id="PrimeiraPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
+        Como eu posso dizer "obrigado" em inglês?
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 01/05</p>
+    <button>Thank you</button>
+    <button>Thak yu</button>
+    <button>Thanksyou</button>
+    <button>Obrigu</button>
+    <br /><br />
+    <button id="avancarPrimeiraPerguntaIniciante">Avançar</button>
+</div>
+<div id="SegundaPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
+        Como se diz "tchau" em inglês?
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 02/05</p>
+    <button>Bye</button>
+    <button>Byee</button>
+    <button>Bay</button>
+    <button>Chau</button>
+    <br /><br />
+    <button id="avancarSegundaPerguntaIniciante">Avançar</button>
+</div>
+<div id="TerceiraPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
+        Como se diz "cachorro" em inglês?
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 03/05</p>
+    <button>Dog</button>
+    <button>Dag</button>
+    <button>Cachor</button>
+    <button>Puppi</button>
+    <br /><br />
+    <button id="avancarTerceiraPerguntaIniciante">Avançar</button>
+</div>
+
+<div id="QuartaPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
+        Como se diz "gato" em inglês?
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 04/05</p>
+    <button>Gat</button>
+    <button>Cat</button>
+    <button>Ket</button>
+    <button>Cati</button>
+    <br /><br />
+    <button id="avancarQuartaPerguntaIniciante">Avançar</button>
+</div>
+
+<div id="QuintaPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
+    <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
+        Como se diz "bom dia" em inglês?
+    </p>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 05/05</p>
+    <button>Good morning</button>
+    <button>Gud morni</button>
+    <button>Morning good</button>
+    <button>Bom day</button>
+    <br /><br />
+    <button id="avancarQuintaPerguntaIniciante">Finalizar teste</button>
+</div>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const nome = localStorage.getItem("nomeUsuario");
+        if (nome) {
+            const titulo = document.getElementById("BemVindoX");
+            if (titulo) {
+                titulo.textContent = `Bem-vindo, ${nome}!`;
+            }
+        }
+
+        const PrimeirosBotoes = document.getElementById("PrimeirosBotoes");
+        const BotoesRestantes = document.getElementById("BotoesRestantes");
+        const botaoNaoSei = document.getElementById("BotaoInglesNaoSei");
+        const TesteRapidoBotoes = document.getElementById("TesteRapido");
+        const botaoInglesIniciante = document.getElementById("botaoInglesIniciante");
+        const botaoInglesAmador = document.getElementById("botaoInglesAmador");
+        const botaoInglesFluente = document.getElementById("botaoInglesFluente");
+        const vamosBotao = document.getElementById("VamosBotao");
+        const outraHoraBotao = document.getElementById("OutraHoraBotao");
+
+        const PrimeiraPergunta = document.getElementById("PrimeiraPerguntaNaoSei");
+        const avancarPrimeiraPerguntaNaoSei = document.getElementById("avancarPrimeiraPerguntaNaoSei");
+        const SegundaPergunta = document.getElementById("SegundaPerguntaNaoSei");
+        const avancarSegundaPerguntaNaoSei = document.getElementById("avancarSegundaPerguntaNaoSei");
+        const TerceiraPerguntaNaoSei = document.getElementById("TerceiraPerguntaNaoSei");
+        const avancarTerceiraPerguntaNaoSei = document.getElementById("avancarTerceiraPerguntaNaoSei");
+        const QuartaPerguntaNaoSei = document.getElementById("QuartaPerguntaNaoSei");
+        const avancarQuartaPerguntaNaoSei = document.getElementById("avancarQuartaPerguntaNaoSei");
+        const QuintaPerguntaNaoSei = document.getElementById("QuintaPerguntaNaoSei");
+        const avancarQuintaPerguntaNaoSei = document.getElementById("avancarQuintaPerguntaNaoSei");
+
+        const PrimeiraPerguntaIniciante = document.getElementById("PrimeiraPerguntaIniciante");
+        const avancarPrimeiraPerguntaIniciante = document.getElementById("avancarPrimeiraPerguntaIniciante");
+        const SegundaPerguntaIniciante = document.getElementById("SegundaPerguntaIniciante");
+        const avancarSegundaPerguntaIniciante = document.getElementById("avancarSegundaPerguntaIniciante");
+        const TerceiraPerguntaIniciante = document.getElementById("TerceiraPerguntaIniciante");
+        const avancarTerceiraPerguntaIniciante = document.getElementById("avancarTerceiraPerguntaIniciante");
+        const QuartaPerguntaIniciante = document.getElementById("QuartaPerguntaIniciante");
+        const avancarQuartaPerguntaIniciante = document.getElementById("avancarQuartaPerguntaIniciante");
+        const QuintaPerguntaIniciante = document.getElementById("QuintaPerguntaIniciante");
+        const avancarQuintaPerguntaIniciante = document.getElementById("avancarQuintaPerguntaIniciante");
+
+
+
+        let usuarioNaoSabeIngles = false;
+        let usuarioIniciante = false;
+
+        botaoNaoSei.addEventListener("click", () => {
+            usuarioNaoSabeIngles = true;
+            usuarioIniciante = false;
+            PrimeirosBotoes.style.display = "none";
+            BotoesRestantes.style.display = "none";
+            TesteRapidoBotoes.style.display = "block";
+        });
+
+        botaoInglesIniciante.addEventListener("click", () => {
+            usuarioNaoSabeIngles = false;
+            usuarioIniciante = true;
+            PrimeirosBotoes.style.display = "none";
+            BotoesRestantes.style.display = "none";
+            TesteRapidoBotoes.style.display = "block";
+        });
+
+        botaoInglesAmador.addEventListener("click", () => {
+            usuarioNaoSabeIngles = false;
+            usuarioIniciante = false;
+            PrimeirosBotoes.style.display = "none";
+            BotoesRestantes.style.display = "none";
+            TesteRapidoBotoes.style.display = "block";
+        });
+
+        botaoInglesFluente.addEventListener("click", () => {
+            usuarioNaoSabeIngles = false;
+            usuarioIniciante = false;
+            PrimeirosBotoes.style.display = "none";
+            BotoesRestantes.style.display = "none";
+            TesteRapidoBotoes.style.display = "block";
+        });
+
+        vamosBotao.addEventListener("click", () => {
+            TesteRapidoBotoes.style.display = "none";
+            if (usuarioNaoSabeIngles) {
+                PrimeiraPergunta.style.display = "block";
+            }
+            else if (usuarioIniciante) {
+                PrimeiraPerguntaIniciante.style.display = "block";
+            }
+
+        });
+
+        avancarPrimeiraPerguntaNaoSei.addEventListener("click", () => {
+            PrimeiraPergunta.style.display = "none";
+            SegundaPergunta.style.display = "block";
+        });
+
+        avancarSegundaPerguntaNaoSei.addEventListener("click", () => {
+            SegundaPergunta.style.display = "none";
+            TerceiraPerguntaNaoSei.style.display = "block";
+        });
+
+        avancarTerceiraPerguntaNaoSei.addEventListener("click", () => {
+            TerceiraPerguntaNaoSei.style.display = "none";
+            QuartaPerguntaNaoSei.style.display = "block";
+        });
+
+        avancarQuartaPerguntaNaoSei.addEventListener("click", () => {
+            QuartaPerguntaNaoSei.style.display = "none";
+            QuintaPerguntaNaoSei.style.display = "block";
+        });
+
+        avancarQuintaPerguntaNaoSei.addEventListener("click", () => {
+            QuintaPerguntaNaoSei.style.display = "none";
+            alert("Registrando suas respostas"); // pensar em como salvar as alternativas clicadas pelo usuario e contar quantas ele acertou
+        });
+        avancarPrimeiraPerguntaIniciante.addEventListener("click", function (){
+            PrimeiraPerguntaIniciante.style.display = "none";
+            SegundaPerguntaIniciante.style.display = "block";
+        });
+        avancarSegundaPerguntaIniciante.addEventListener("click", function (){
+            SegundaPerguntaIniciante.style.display = "none";
+            TerceiraPerguntaIniciante.style.display = "block";
+        });
+        avancarTerceiraPerguntaIniciante.addEventListener("click", function (){
+            TerceiraPerguntaIniciante.style.display = "none";
+            QuartaPerguntaIniciante.style.display = "block";
+        });
+        avancarQuartaPerguntaIniciante.addEventListener("click", function (){
+            QuartaPerguntaIniciante.style.display = "none";
+            QuintaPerguntaIniciante.style.display = "block";
+        });
+        avancarQuintaPerguntaIniciante.addEventListener("click", function (){
+            QuintaPerguntaIniciante.style.display = "none";
+            alert("Registrando suas respostas "); // pensar em como salvar as alternativas clicadas pelo usuario e contar quantas ele acertou
+
+    });
+
+    });
+</script>

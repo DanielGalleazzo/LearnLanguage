@@ -103,8 +103,22 @@
             body: JSON.stringify({ nome, idioma })
         })
             .then(response => {
-                if (response.ok) {
-                    window.open("/Html/Ingles", "_blank");
+                if (response.ok)
+        {
+                    switch (idioma) {
+                        case "ingles":
+                            window.open("/Html/Ingles", "_blank");
+                            break;
+                        case "frances":
+                            window.open("/Html/Frances", "_blank");
+                            break;
+                        case "espanhol":
+                            window.open("/Html/Espanhol", "_blank");
+                            break;
+                        default:
+                            alert("Idioma não reconhecido.");
+                    }
+                    
                 } else {
                     alert("Erro ao enviar os dados.");
                 }

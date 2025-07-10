@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\html\\espanhol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\views\\html\\espanhol.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\controllers\\htmlcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\controllers\\htmlcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\html\\ingles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\views\\html\\ingles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\html\\frances.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\views\\html\\frances.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\html\\perguntasnaosei.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\views\\html\\perguntasnaosei.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\html\\perguntasnaosei.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\views\\html\\perguntasnaosei.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +54,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Espanhol.cshtml",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Espanhol.cshtml",
+              "RelativeDocumentMoniker": "LearnEnglish\\Views\\Html\\Espanhol.cshtml",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Espanhol.cshtml*",
+              "RelativeToolTip": "LearnEnglish\\Views\\Html\\Espanhol.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T02:14:03.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Program.cs",
+              "RelativeDocumentMoniker": "LearnEnglish\\Program.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Program.cs",
+              "RelativeToolTip": "LearnEnglish\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T02:11:29.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HTMLControler.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Controllers\\HTMLControler.cs",
+              "RelativeDocumentMoniker": "LearnEnglish\\Controllers\\HTMLControler.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Controllers\\HTMLControler.cs*",
+              "RelativeToolTip": "LearnEnglish\\Controllers\\HTMLControler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T02:10:38.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Frances.cshtml",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Frances.cshtml",
+              "RelativeDocumentMoniker": "LearnEnglish\\Views\\Html\\Frances.cshtml",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Frances.cshtml",
+              "RelativeToolTip": "LearnEnglish\\Views\\Html\\Frances.cshtml",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAQwCABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T02:01:30.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "LearnEnglish\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "LearnEnglish\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwHcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-10T01:55:17.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LearnEnglish\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LearnEnglish\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T00:14:05.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\appsettings.json",
               "RelativeDocumentMoniker": "LearnEnglish\\appsettings.json",
@@ -47,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "PerguntasNaoSei.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\PerguntasNaoSei.cshtml",
               "RelativeDocumentMoniker": "LearnEnglish\\Views\\Html\\PerguntasNaoSei.cshtml",
@@ -59,32 +161,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ingles.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Ingles.cshtml",
               "RelativeDocumentMoniker": "LearnEnglish\\Views\\Html\\Ingles.cshtml",
-              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Ingles.cshtml*",
-              "RelativeToolTip": "LearnEnglish\\Views\\Html\\Ingles.cshtml*",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAAAB0BAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Ingles.cshtml",
+              "RelativeToolTip": "LearnEnglish\\Views\\Html\\Ingles.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-04T00:09:45.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "LearnEnglish\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\site.css",
               "RelativeToolTip": "LearnEnglish\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-05T00:27:44.851Z"
+              "WhenOpened": "2025-07-05T00:27:44.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LearnEnglish\\Controllers\\HomeController.cs",
@@ -92,7 +195,8 @@
               "RelativeToolTip": "LearnEnglish\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T00:10:12.348Z"
+              "WhenOpened": "2025-07-04T00:10:12.348Z",
+              "EditorCaption": ""
             }
           ]
         }

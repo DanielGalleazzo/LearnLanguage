@@ -8,5 +8,13 @@ namespace LearnEnglish.Controllers
         {
             return View("~/Views/Html/Ingles.cshtml");
         }
+        public IActionResult Frances()
+        {
+            return View("~/Views/Html/Frances.cshtml");
+        }
+        public IActionResult Espanhol()
+        {
+            return View("~/Views/Html/Espanhol.cshtml");
+        }
     }
 }
