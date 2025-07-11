@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasInicianteIngles.js",
+      "PackagePath": "staticwebassets\\js\\scriptPerguntasInicianteIngles.js"
+    },
+    {
       "Id": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasNaoSeiIngles.js",
       "PackagePath": "staticwebassets\\js\\scriptPerguntasNaoSeiIngles.js"
     },

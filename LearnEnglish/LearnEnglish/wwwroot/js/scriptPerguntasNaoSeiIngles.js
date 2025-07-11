@@ -8,7 +8,7 @@
     }
 
     let quantidadeRespostasCertasNaoSei = 0;
-    let quantidadeRespostasCertasIniciante = 0;
+    
 
     const PrimeirosBotoes = document.getElementById("PrimeirosBotoes");
     const BotoesRestantes = document.getElementById("BotoesRestantes");
@@ -19,17 +19,11 @@
     const botaoInglesFluente = document.getElementById("botaoInglesFluente");
     const vamosBotao = document.getElementById("VamosBotao");
 
-    const PrimeiraPergunta = document.getElementById("PrimeiraPerguntaNaoSei");
-    const SegundaPergunta = document.getElementById("SegundaPerguntaNaoSei");
+    const PrimeiraPerguntaNaoSei = document.getElementById("PrimeiraPerguntaNaoSei");
+    const SegundaPerguntaNaoSei = document.getElementById("SegundaPerguntaNaoSei");
     const TerceiraPerguntaNaoSei = document.getElementById("TerceiraPerguntaNaoSei");
     const QuartaPerguntaNaoSei = document.getElementById("QuartaPerguntaNaoSei");
     const QuintaPerguntaNaoSei = document.getElementById("QuintaPerguntaNaoSei");
-
-    const PrimeiraPerguntaIniciante = document.getElementById("PrimeiraPerguntaIniciante");
-    const SegundaPerguntaIniciante = document.getElementById("SegundaPerguntaIniciante");
-    const TerceiraPerguntaIniciante = document.getElementById("TerceiraPerguntaIniciante");
-    const QuartaPerguntaIniciante = document.getElementById("QuartaPerguntaIniciante");
-    const QuintaPerguntaIniciante = document.getElementById("QuintaPerguntaIniciante");
 
     const avancarPrimeiraPerguntaNaoSei = document.getElementById("avancarPrimeiraPerguntaNaoSei");
     const avancarSegundaPerguntaNaoSei = document.getElementById("avancarSegundaPerguntaNaoSei");
@@ -73,19 +67,17 @@
     vamosBotao.addEventListener("click", () => {
         TesteRapidoBotoes.style.display = "none";
         if (usuarioNaoSabeIngles) {
-            PrimeiraPergunta.style.display = "block";
-        } else if (usuarioIniciante) {
-            PrimeiraPerguntaIniciante.style.display = "block";
-        }
+            PrimeiraPerguntaNaoSei.style.display = "block";
+        } 
     });
 
     avancarPrimeiraPerguntaNaoSei.addEventListener("click", () => {
-        PrimeiraPergunta.style.display = "none";
-        SegundaPergunta.style.display = "block";
+        PrimeiraPerguntaNaoSei.style.display = "none";
+        SegundaPerguntaNaoSei.style.display = "block";
     });
 
     avancarSegundaPerguntaNaoSei.addEventListener("click", () => {
-        SegundaPergunta.style.display = "none";
+        SegundaPerguntaNaoSei.style.display = "none";
         TerceiraPerguntaNaoSei.style.display = "block";
     });
 
