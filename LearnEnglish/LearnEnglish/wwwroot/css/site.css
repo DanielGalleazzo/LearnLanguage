@@ -25,7 +25,7 @@ body {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 #botaoInterfaceNao {
@@ -33,7 +33,7 @@ body {
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 #VamosComecar {

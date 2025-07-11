@@ -32,7 +32,7 @@
     <button>Je te aime</button>
     <button>Te quiero</button>
     <button>I love you</button>
-    <button>Eu te amo</button>
+    <button id="PrimeiraRespostaCertaNaoSei">Eu te amo</button>
     <br /><br />
     <button id="avancarPrimeiraPerguntaNaoSei">Avançar</button>
 </div>
@@ -42,7 +42,7 @@
         Como eu posso dizer "olá" para alguém ?
     </p>
     <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 02/05</p>
-    <button>Hello</button>
+    <button id="SegundaRespostaCertaNaoSei">Hello</button>
     <button>Helo</button>
     <button>Helloh</button>
     <button>Hellow</button>
@@ -54,8 +54,8 @@
     <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">Como é "azul" em inglês ?</p>
     <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 03/05</p>
     <button>Red</button>
-    <button>Blui</button>
-    <button>Helloh</button>
+    <button id="TerceiraRespostaCertaNaoSei">Blue</button>
+    <button>Hello</button>
     <button>Hellow</button>
     <br /><br />
     <button id="avancarTerceiraPerguntaNaoSei">Avançar</button>
@@ -66,7 +66,7 @@
     <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 04/05</p>
     <button>Uno, dos, tres</button>
     <button>Une, thow,three</button>
-    <button>One, two, three</button>
+    <button id="QuartaRespostaCertaNaoSei">One, two, three</button>
     <button>Um, dois, três</button>
     <br /><br />
     <button id="avancarQuartaPerguntaNaoSei">Avançar</button>
@@ -76,13 +76,13 @@
     <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">Como é "idade" em inglês ?</p>
     <p style="font-family: Arial, Helvetica, sans-serif;">Questão: 05/05</p>
     <button>Agi</button>
-    <button>Age</button>
+    <button id="QuintaRespostaCertaNaoSei">Age</button>
     <button>Aghe</button>
     <button>Agew</button>
     <br /><br />
     <button id="avancarQuintaPerguntaNaoSei">Finalizar teste</button>
 </div>
-<!--Perguntas outro botão-->
+
 <div id="PrimeiraPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
     <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
         Como eu posso dizer "obrigado" em inglês?
@@ -95,6 +95,7 @@
     <br /><br />
     <button id="avancarPrimeiraPerguntaIniciante">Avançar</button>
 </div>
+
 <div id="SegundaPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
     <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
         Como se diz "tchau" em inglês?
@@ -107,6 +108,7 @@
     <br /><br />
     <button id="avancarSegundaPerguntaIniciante">Avançar</button>
 </div>
+
 <div id="TerceiraPerguntaIniciante" style="display: none; text-align: center; margin-top: 30px;">
     <p style="font-family:Arial, Helvetica, sans-serif; font-size: 30px">
         Como se diz "cachorro" em inglês?
@@ -146,8 +148,6 @@
     <button id="avancarQuintaPerguntaIniciante">Finalizar teste</button>
 </div>
 
-
-
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const nome = localStorage.getItem("nomeUsuario");
@@ -158,6 +158,9 @@
             }
         }
 
+        let quantidadeRespostasCertasNaoSei = 0;
+        let quantidadeRespostasCertasIniciante = 0;
+
         const PrimeirosBotoes = document.getElementById("PrimeirosBotoes");
         const BotoesRestantes = document.getElementById("BotoesRestantes");
         const botaoNaoSei = document.getElementById("BotaoInglesNaoSei");
@@ -166,31 +169,30 @@
         const botaoInglesAmador = document.getElementById("botaoInglesAmador");
         const botaoInglesFluente = document.getElementById("botaoInglesFluente");
         const vamosBotao = document.getElementById("VamosBotao");
-        const outraHoraBotao = document.getElementById("OutraHoraBotao");
 
         const PrimeiraPergunta = document.getElementById("PrimeiraPerguntaNaoSei");
-        const avancarPrimeiraPerguntaNaoSei = document.getElementById("avancarPrimeiraPerguntaNaoSei");
         const SegundaPergunta = document.getElementById("SegundaPerguntaNaoSei");
-        const avancarSegundaPerguntaNaoSei = document.getElementById("avancarSegundaPerguntaNaoSei");
         const TerceiraPerguntaNaoSei = document.getElementById("TerceiraPerguntaNaoSei");
-        const avancarTerceiraPerguntaNaoSei = document.getElementById("avancarTerceiraPerguntaNaoSei");
         const QuartaPerguntaNaoSei = document.getElementById("QuartaPerguntaNaoSei");
-        const avancarQuartaPerguntaNaoSei = document.getElementById("avancarQuartaPerguntaNaoSei");
         const QuintaPerguntaNaoSei = document.getElementById("QuintaPerguntaNaoSei");
+
+        const PrimeiraPerguntaIniciante = document.getElementById("PrimeiraPerguntaIniciante");
+        const SegundaPerguntaIniciante = document.getElementById("SegundaPerguntaIniciante");
+        const TerceiraPerguntaIniciante = document.getElementById("TerceiraPerguntaIniciante");
+        const QuartaPerguntaIniciante = document.getElementById("QuartaPerguntaIniciante");
+        const QuintaPerguntaIniciante = document.getElementById("QuintaPerguntaIniciante");
+
+        const avancarPrimeiraPerguntaNaoSei = document.getElementById("avancarPrimeiraPerguntaNaoSei");
+        const avancarSegundaPerguntaNaoSei = document.getElementById("avancarSegundaPerguntaNaoSei");
+        const avancarTerceiraPerguntaNaoSei = document.getElementById("avancarTerceiraPerguntaNaoSei");
+        const avancarQuartaPerguntaNaoSei = document.getElementById("avancarQuartaPerguntaNaoSei");
         const avancarQuintaPerguntaNaoSei = document.getElementById("avancarQuintaPerguntaNaoSei");
 
-		const PrimeiraPerguntaIniciante = document.getElementById("PrimeiraPerguntaIniciante");
-		const avancarPrimeiraPerguntaIniciante = document.getElementById("avancarPrimeiraPerguntaIniciante");
-		const SegundaPerguntaIniciante = document.getElementById("SegundaPerguntaIniciante");
-		const avancarSegundaPerguntaIniciante = document.getElementById("avancarSegundaPerguntaIniciante");
-		const TerceiraPerguntaIniciante = document.getElementById("TerceiraPerguntaIniciante");
-		const avancarTerceiraPerguntaIniciante = document.getElementById("avancarTerceiraPerguntaIniciante");
-		const QuartaPerguntaIniciante = document.getElementById("QuartaPerguntaIniciante");
-		const avancarQuartaPerguntaIniciante = document.getElementById("avancarQuartaPerguntaIniciante");
-		const QuintaPerguntaIniciante = document.getElementById("QuintaPerguntaIniciante");
-		const avancarQuintaPerguntaIniciante = document.getElementById("avancarQuintaPerguntaIniciante");
-
-        
+        const avancarPrimeiraPerguntaIniciante = document.getElementById("avancarPrimeiraPerguntaIniciante");
+        const avancarSegundaPerguntaIniciante = document.getElementById("avancarSegundaPerguntaIniciante");
+        const avancarTerceiraPerguntaIniciante = document.getElementById("avancarTerceiraPerguntaIniciante");
+        const avancarQuartaPerguntaIniciante = document.getElementById("avancarQuartaPerguntaIniciante");
+        const avancarQuintaPerguntaIniciante = document.getElementById("avancarQuintaPerguntaIniciante");
 
         let usuarioNaoSabeIngles = false;
         let usuarioIniciante = false;
@@ -212,16 +214,12 @@
         });
 
         botaoInglesAmador.addEventListener("click", () => {
-            usuarioNaoSabeIngles = false;
-            usuarioIniciante = false;
             PrimeirosBotoes.style.display = "none";
             BotoesRestantes.style.display = "none";
             TesteRapidoBotoes.style.display = "block";
         });
 
         botaoInglesFluente.addEventListener("click", () => {
-            usuarioNaoSabeIngles = false;
-            usuarioIniciante = false;
             PrimeirosBotoes.style.display = "none";
             BotoesRestantes.style.display = "none";
             TesteRapidoBotoes.style.display = "block";
@@ -231,11 +229,9 @@
             TesteRapidoBotoes.style.display = "none";
             if (usuarioNaoSabeIngles) {
                 PrimeiraPergunta.style.display = "block";
+            } else if (usuarioIniciante) {
+                PrimeiraPerguntaIniciante.style.display = "block";
             }
-			else if (usuarioIniciante) {
-				PrimeiraPerguntaIniciante.style.display = "block";
-			} 
-           
         });
 
         avancarPrimeiraPerguntaNaoSei.addEventListener("click", () => {
@@ -260,29 +256,71 @@
 
         avancarQuintaPerguntaNaoSei.addEventListener("click", () => {
             QuintaPerguntaNaoSei.style.display = "none";
-            alert("Registrando suas respostas"); // pensar em como salvar as alternativas clicadas pelo usuario e contar quantas ele acertou
+            alert(`Registrando suas respostas. Acertos: ${quantidadeRespostasCertasNaoSei}`);
         });
-        avancarPrimeiraPerguntaIniciante.addEventListener("click", function (){
-			PrimeiraPerguntaIniciante.style.display = "none";
-			SegundaPerguntaIniciante.style.display = "block";
-        });
-		avancarSegundaPerguntaIniciante.addEventListener("click", function (){
-			SegundaPerguntaIniciante.style.display = "none";
-			TerceiraPerguntaIniciante.style.display = "block";
-		});
-		avancarTerceiraPerguntaIniciante.addEventListener("click", function (){
-			TerceiraPerguntaIniciante.style.display = "none";
-			QuartaPerguntaIniciante.style.display = "block";
-        });
-		avancarQuartaPerguntaIniciante.addEventListener("click", function (){
-			QuartaPerguntaIniciante.style.display = "none";
-			QuintaPerguntaIniciante.style.display = "block";
-		});
-		avancarQuintaPerguntaIniciante.addEventListener("click", function (){
-			QuintaPerguntaIniciante.style.display = "none";
-			alert("Registrando suas respostas "); // pensar em como salvar as alternativas clicadas pelo usuario e contar quantas ele acertou
 
-    });
+        avancarPrimeiraPerguntaIniciante.addEventListener("click", () => {
+            PrimeiraPerguntaIniciante.style.display = "none";
+            SegundaPerguntaIniciante.style.display = "block";
+        });
+
+        avancarSegundaPerguntaIniciante.addEventListener("click", () => {
+            SegundaPerguntaIniciante.style.display = "none";
+            TerceiraPerguntaIniciante.style.display = "block";
+        });
+
+        avancarTerceiraPerguntaIniciante.addEventListener("click", () => {
+            TerceiraPerguntaIniciante.style.display = "none";
+            QuartaPerguntaIniciante.style.display = "block";
+        });
+
+        avancarQuartaPerguntaIniciante.addEventListener("click", () => {
+            QuartaPerguntaIniciante.style.display = "none";
+            QuintaPerguntaIniciante.style.display = "block";
+        });
+
+        avancarQuintaPerguntaIniciante.addEventListener("click", () => {
+            QuintaPerguntaIniciante.style.display = "none";
+            alert(`Registrando suas respostas. Acertos: ${quantidadeRespostasCertasIniciante}`);
+        });
+
+        document.getElementById("PrimeiraRespostaCertaNaoSei").addEventListener("click", () => {
+            quantidadeRespostasCertasNaoSei += 1;
+        });
+        document.getElementById("SegundaRespostaCertaNaoSei").addEventListener("click", () => {
+            quantidadeRespostasCertasNaoSei += 1;
+        });
+        document.getElementById("TerceiraRespostaCertaNaoSei").addEventListener("click", () => {
+            quantidadeRespostasCertasNaoSei += 1;
+        });
+        document.getElementById("QuartaRespostaCertaNaoSei").addEventListener("click", () => {
+            quantidadeRespostasCertasNaoSei += 1;
+        });
+        document.getElementById("QuintaRespostaCertaNaoSei").addEventListener("click", () => {
+            quantidadeRespostasCertasNaoSei += 1;
+        });
+
+       
+        PrimeiraPerguntaIniciante.querySelector("button:nth-child(1)").addEventListener("click", () => {
+            quantidadeRespostasCertasIniciante += 1;
+        });
+        
+        SegundaPerguntaIniciante.querySelector("button:nth-child(1)").addEventListener("click", () => {
+            quantidadeRespostasCertasIniciante += 1;
+        });
+        
+        TerceiraPerguntaIniciante.querySelector("button:nth-child(1)").addEventListener("click", () => {
+            quantidadeRespostasCertasIniciante += 1;
+        });
+        
+        QuartaPerguntaIniciante.querySelector("button:nth-child(2)").addEventListener("click", () => {
+            quantidadeRespostasCertasIniciante += 1;
+        });
+        
+        QuintaPerguntaIniciante.querySelector("button:nth-child(1)").addEventListener("click", () => {
+            quantidadeRespostasCertasIniciante += 1;
+        });
 
     });
 </script>
+
