@@ -249,6 +249,88 @@
       ]
     },
     {
+      "Route": "js/scriptPerguntasNaoSeiIngles.js",
+      "AssetFile": "js/scriptPerguntasNaoSeiIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"efUBHrGjTKqcLn13/qQb66PCYlNbjb5+/LuWHqXRzls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 20:57:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-efUBHrGjTKqcLn13/qQb66PCYlNbjb5+/LuWHqXRzls="
+        }
+      ]
+    },
+    {
+      "Route": "js/scriptPerguntasNaoSeiIngles.z92gjm9s3m.js",
+      "AssetFile": "js/scriptPerguntasNaoSeiIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"efUBHrGjTKqcLn13/qQb66PCYlNbjb5+/LuWHqXRzls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 20:57:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z92gjm9s3m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-efUBHrGjTKqcLn13/qQb66PCYlNbjb5+/LuWHqXRzls="
+        },
+        {
+          "Name": "label",
+          "Value": "js/scriptPerguntasNaoSeiIngles.js"
+        }
+      ]
+    },
+    {
       "Route": "js/site.f387ysnw6b.js",
       "AssetFile": "js/site.js",
       "Selectors": [],
