@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\scriptPerguntasAmadorIngles.js
+wwwroot\js\scriptPerguntasFluenteIngles.js
 wwwroot\js\scriptPerguntasInicianteIngles.js
 wwwroot\js\scriptPerguntasNaoSeiIngles.js
 wwwroot\js\site.js

@@ -16,7 +16,7 @@
     const PrimeirosBotoes = document.getElementById("PrimeirosBotoes");
     const BotoesRestantes = document.getElementById("BotoesRestantes");
 
-    let usuarioNaoSabeIngles = false;
+    
 
     const PrimeiraPergunta = document.getElementById("PrimeiraPerguntaNaoSei");
     const SegundaPergunta = document.getElementById("SegundaPerguntaNaoSei");
@@ -33,7 +33,7 @@
 
 
     let usuarioNaoSabeIngles = false;
-    let usuarioIniciante = false;
+    
 
     botaoNaoSei.addEventListener("click", () => {
         usuarioNaoSabeIngles = true;

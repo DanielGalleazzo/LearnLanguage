@@ -249,7 +249,7 @@
       ]
     },
     {
-      "Route": "js/scriptPerguntasAmadorIngles.ilurs4r4yz.js",
+      "Route": "js/scriptPerguntasAmadorIngles.6eki4k6y10.js",
       "AssetFile": "js/scriptPerguntasAmadorIngles.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -263,7 +263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2768"
+          "Value": "3514"
         },
         {
           "Name": "Content-Type",
@@ -271,21 +271,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo=\""
+          "Value": "\"QpRHigTUVkHnKcKgb9k2jlmWqYfBXRwt7tNwjbRPbr4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 01:57:11 GMT"
+          "Value": "Sun, 13 Jul 2025 18:01:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ilurs4r4yz"
+          "Value": "6eki4k6y10"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo="
+          "Value": "sha256-QpRHigTUVkHnKcKgb9k2jlmWqYfBXRwt7tNwjbRPbr4="
         },
         {
           "Name": "label",
@@ -308,7 +308,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2768"
+          "Value": "3514"
         },
         {
           "Name": "Content-Type",
@@ -316,23 +316,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo=\""
+          "Value": "\"QpRHigTUVkHnKcKgb9k2jlmWqYfBXRwt7tNwjbRPbr4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 01:57:11 GMT"
+          "Value": "Sun, 13 Jul 2025 18:01:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo="
+          "Value": "sha256-QpRHigTUVkHnKcKgb9k2jlmWqYfBXRwt7tNwjbRPbr4="
         }
       ]
     },
     {
-      "Route": "js/scriptPerguntasInicianteIngles.0jamzzckez.js",
-      "AssetFile": "js/scriptPerguntasInicianteIngles.js",
+      "Route": "js/scriptPerguntasFluenteIngles.2pfy6tkep6.js",
+      "AssetFile": "js/scriptPerguntasFluenteIngles.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -345,7 +345,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2837"
+          "Value": "3547"
         },
         {
           "Name": "Content-Type",
@@ -353,25 +353,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY=\""
+          "Value": "\"CmKTortLcIHwkNDrDxRi6oT7j/2MEHp6vv9jnlpnaTs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 00:16:39 GMT"
+          "Value": "Sun, 13 Jul 2025 18:37:11 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0jamzzckez"
+          "Value": "2pfy6tkep6"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY="
+          "Value": "sha256-CmKTortLcIHwkNDrDxRi6oT7j/2MEHp6vv9jnlpnaTs="
         },
         {
           "Name": "label",
-          "Value": "js/scriptPerguntasInicianteIngles.js"
+          "Value": "js/scriptPerguntasFluenteIngles.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/scriptPerguntasFluenteIngles.js",
+      "AssetFile": "js/scriptPerguntasFluenteIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CmKTortLcIHwkNDrDxRi6oT7j/2MEHp6vv9jnlpnaTs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Jul 2025 18:37:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CmKTortLcIHwkNDrDxRi6oT7j/2MEHp6vv9jnlpnaTs="
         }
       ]
     },
@@ -390,7 +427,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2837"
+          "Value": "3644"
         },
         {
           "Name": "Content-Type",
@@ -398,17 +435,107 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY=\""
+          "Value": "\"f/Yp0FlyI2+pb8HO8S+xZfVufN5DPCrgMdkV/+ARalk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 00:16:39 GMT"
+          "Value": "Sun, 13 Jul 2025 18:01:37 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY="
+          "Value": "sha256-f/Yp0FlyI2+pb8HO8S+xZfVufN5DPCrgMdkV/+ARalk="
+        }
+      ]
+    },
+    {
+      "Route": "js/scriptPerguntasInicianteIngles.pe3pckx7vi.js",
+      "AssetFile": "js/scriptPerguntasInicianteIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f/Yp0FlyI2+pb8HO8S+xZfVufN5DPCrgMdkV/+ARalk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Jul 2025 18:01:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pe3pckx7vi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f/Yp0FlyI2+pb8HO8S+xZfVufN5DPCrgMdkV/+ARalk="
+        },
+        {
+          "Name": "label",
+          "Value": "js/scriptPerguntasInicianteIngles.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/scriptPerguntasNaoSeiIngles.ia8l14bf27.js",
+      "AssetFile": "js/scriptPerguntasNaoSeiIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xkFzlfqtdI7s5QPYaZsieyejqUPE0V9xTMm2HU0MeKA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Jul 2025 18:04:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ia8l14bf27"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xkFzlfqtdI7s5QPYaZsieyejqUPE0V9xTMm2HU0MeKA="
+        },
+        {
+          "Name": "label",
+          "Value": "js/scriptPerguntasNaoSeiIngles.js"
         }
       ]
     },
@@ -427,7 +554,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3695"
+          "Value": "3633"
         },
         {
           "Name": "Content-Type",
@@ -435,62 +562,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI=\""
+          "Value": "\"xkFzlfqtdI7s5QPYaZsieyejqUPE0V9xTMm2HU0MeKA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
+          "Value": "Sun, 13 Jul 2025 18:04:31 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI="
-        }
-      ]
-    },
-    {
-      "Route": "js/scriptPerguntasNaoSeiIngles.qiazcwb2w1.js",
-      "AssetFile": "js/scriptPerguntasNaoSeiIngles.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3695"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qiazcwb2w1"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI="
-        },
-        {
-          "Name": "label",
-          "Value": "js/scriptPerguntasNaoSeiIngles.js"
+          "Value": "sha256-xkFzlfqtdI7s5QPYaZsieyejqUPE0V9xTMm2HU0MeKA="
         }
       ]
     },

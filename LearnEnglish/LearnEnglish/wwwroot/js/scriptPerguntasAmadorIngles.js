@@ -7,6 +7,7 @@
         }
     }
     let quantidadeRespostasCertasAmador = 0;
+
     const botaoAmador = document.getElementById("botaoInglesAmador");
     const TesteRapidoBotoes = document.getElementById("TesteRapido");
     const vamosBotao = document.getElementById("VamosBotao");
@@ -56,7 +57,22 @@
     });
     avancar5.addEventListener("click", () => {
         QuintaPergunta.style.display = "none";
-        alert("Teste finalizado! Obrigado por participar.");
+        alert(`Você acertou: ${quantidadeRespostasCertasAmador} questões`);
     });
-
+    document.getElementById("PrimeiraRespostaAmador").addEventListener("click", () => {
+        quantidadeRespostasCertasAmador += 1;
+    });
+    document.getElementById("SegundaRespostaAmador").addEventListener("click", () => {
+        quantidadeRespostasCertasAmador += 1;
+    });
+    document.getElementById("TerceiraRespostaAmador").addEventListener("click", () => {
+        quantidadeRespostasCertasAmador += 1;
+    });
+    document.getElementById("QuartaRespostaAmador").addEventListener("click", () => {
+        quantidadeRespostasCertasAmador += 1;
+    });
+    document.getElementById("QuintaRespostaAmador").addEventListener("click", () => {
+        quantidadeRespostasCertasAmador += 1;
+        
+    })
 });

@@ -62,6 +62,23 @@
     });
     avancar5.addEventListener("click", () => {
         QuintaPergunta.style.display = "none";
-        alert("Teste finalizado! Obrigado por participar.");
+        alert(`Você acertou: ${quantidadeRespostasCertasIniciante} questões`);
+    });
+
+    document.getElementById("PrimeiraRespostaCertaIniciante").addEventListener("click", () => {
+        quantidadeRespostasCertasIniciante += 1;
+    });
+    document.getElementById("SegundaRespostaCertaIniciante").addEventListener("click", () => {
+        quantidadeRespostasCertasIniciante += 1;
+    });
+    document.getElementById("TerceiraRespostaCertaIniciante").addEventListener("click", () => {
+        quantidadeRespostasCertasIniciante += 1;
+    });
+    document.getElementById("QuartaRespostaCertaIniciante").addEventListener("click", () => {
+        quantidadeRespostasCertasIniciante += 1;
+    });
+    document.getElementById("QuintaRespostaCertaIniciante").addEventListener("click", () => {
+        quantidadeRespostasCertasIniciante += 1;
+        
     });
 });
