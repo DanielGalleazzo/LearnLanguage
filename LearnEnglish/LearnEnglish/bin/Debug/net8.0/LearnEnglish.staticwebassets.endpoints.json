@@ -249,7 +249,89 @@
       ]
     },
     {
-      "Route": "js/scriptPerguntasInicianteIngles.e1vh15xxsk.js",
+      "Route": "js/scriptPerguntasAmadorIngles.ilurs4r4yz.js",
+      "AssetFile": "js/scriptPerguntasAmadorIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Jul 2025 01:57:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ilurs4r4yz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo="
+        },
+        {
+          "Name": "label",
+          "Value": "js/scriptPerguntasAmadorIngles.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/scriptPerguntasAmadorIngles.js",
+      "AssetFile": "js/scriptPerguntasAmadorIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Jul 2025 01:57:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pq8J6AygXjU+iSSwp2lhO8edVVa5V60j9G5IcYaXFgo="
+        }
+      ]
+    },
+    {
+      "Route": "js/scriptPerguntasInicianteIngles.0jamzzckez.js",
       "AssetFile": "js/scriptPerguntasInicianteIngles.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -263,7 +345,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2884"
+          "Value": "2837"
         },
         {
           "Name": "Content-Type",
@@ -271,21 +353,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs=\""
+          "Value": "\"zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
+          "Value": "Sun, 13 Jul 2025 00:16:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e1vh15xxsk"
+          "Value": "0jamzzckez"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs="
+          "Value": "sha256-zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY="
         },
         {
           "Name": "label",
@@ -308,7 +390,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2884"
+          "Value": "2837"
         },
         {
           "Name": "Content-Type",
@@ -316,17 +398,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs=\""
+          "Value": "\"zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
+          "Value": "Sun, 13 Jul 2025 00:16:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs="
+          "Value": "sha256-zA1RunOcxVBsBM49ww9DwBo66hloP6BPpmV8+Uj0mzY="
         }
       ]
     },
