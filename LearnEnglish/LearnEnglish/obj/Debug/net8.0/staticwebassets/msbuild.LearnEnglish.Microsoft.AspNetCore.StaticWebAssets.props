@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ztpouaa3yp</Fingerprint>
-      <Integrity>OcFbrW15Zgvt9rm0oF/C7+hD4+Mc3YIkOBom9RJeaGU=</Integrity>
+      <Fingerprint>e1vh15xxsk</Fingerprint>
+      <Integrity>niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\scriptPerguntasInicianteIngles.js'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5s0uirp7r4</Fingerprint>
-      <Integrity>dU1JJ6SifmE1+gRmPXfngKI1NRZbOH/FOk6nyhZdIoM=</Integrity>
+      <Fingerprint>qiazcwb2w1</Fingerprint>
+      <Integrity>Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\scriptPerguntasNaoSeiIngles.js'))</OriginalItemSpec>

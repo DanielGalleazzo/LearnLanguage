@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DrxAJ96G32O0+CVtIIS7DEcJcdmCaO4kP4rL9kNZ3qM=",
+  "Hash": "gc/+Sb7pAGdDQQo3e9yIOydR469akOHKEjzjiOA/6Pg=",
   "Source": "LearnEnglish",
   "BasePath": "_content/LearnEnglish",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ztpouaa3yp",
-      "Integrity": "OcFbrW15Zgvt9rm0oF/C7+hD4+Mc3YIkOBom9RJeaGU=",
+      "Fingerprint": "e1vh15xxsk",
+      "Integrity": "niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\scriptPerguntasInicianteIngles.js"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5s0uirp7r4",
-      "Integrity": "dU1JJ6SifmE1+gRmPXfngKI1NRZbOH/FOk6nyhZdIoM=",
+      "Fingerprint": "qiazcwb2w1",
+      "Integrity": "Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\scriptPerguntasNaoSeiIngles.js"
@@ -1527,6 +1527,51 @@
       ]
     },
     {
+      "Route": "js/scriptPerguntasInicianteIngles.e1vh15xxsk.js",
+      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasInicianteIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e1vh15xxsk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scriptPerguntasInicianteIngles.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs="
+        }
+      ]
+    },
+    {
       "Route": "js/scriptPerguntasInicianteIngles.js",
       "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasInicianteIngles.js",
       "Selectors": [],
@@ -1537,7 +1582,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5025"
+          "Value": "2884"
         },
         {
           "Name": "Content-Type",
@@ -1545,11 +1590,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OcFbrW15Zgvt9rm0oF/C7+hD4+Mc3YIkOBom9RJeaGU=\""
+          "Value": "\"niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 23:52:39 GMT"
+          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,97 +1604,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OcFbrW15Zgvt9rm0oF/C7+hD4+Mc3YIkOBom9RJeaGU="
-        }
-      ]
-    },
-    {
-      "Route": "js/scriptPerguntasInicianteIngles.ztpouaa3yp.js",
-      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasInicianteIngles.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5025"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OcFbrW15Zgvt9rm0oF/C7+hD4+Mc3YIkOBom9RJeaGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 23:52:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ztpouaa3yp"
-        },
-        {
-          "Name": "label",
-          "Value": "js/scriptPerguntasInicianteIngles.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OcFbrW15Zgvt9rm0oF/C7+hD4+Mc3YIkOBom9RJeaGU="
-        }
-      ]
-    },
-    {
-      "Route": "js/scriptPerguntasNaoSeiIngles.5s0uirp7r4.js",
-      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasNaoSeiIngles.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4906"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dU1JJ6SifmE1+gRmPXfngKI1NRZbOH/FOk6nyhZdIoM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 23:24:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5s0uirp7r4"
-        },
-        {
-          "Name": "label",
-          "Value": "js/scriptPerguntasNaoSeiIngles.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dU1JJ6SifmE1+gRmPXfngKI1NRZbOH/FOk6nyhZdIoM="
+          "Value": "sha256-niORndz8+jDktcLALf7rfwxUBQVCSM6WlKtynE7eCIs="
         }
       ]
     },
@@ -1664,7 +1619,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4906"
+          "Value": "3695"
         },
         {
           "Name": "Content-Type",
@@ -1672,11 +1627,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dU1JJ6SifmE1+gRmPXfngKI1NRZbOH/FOk6nyhZdIoM=\""
+          "Value": "\"Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 23:24:27 GMT"
+          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1686,7 +1641,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dU1JJ6SifmE1+gRmPXfngKI1NRZbOH/FOk6nyhZdIoM="
+          "Value": "sha256-Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI="
+        }
+      ]
+    },
+    {
+      "Route": "js/scriptPerguntasNaoSeiIngles.qiazcwb2w1.js",
+      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasNaoSeiIngles.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Jul 2025 00:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qiazcwb2w1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scriptPerguntasNaoSeiIngles.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Aly3YQb717suejwamwkP+ejA63IfodJJErJUdBoRPRI="
         }
       ]
     },

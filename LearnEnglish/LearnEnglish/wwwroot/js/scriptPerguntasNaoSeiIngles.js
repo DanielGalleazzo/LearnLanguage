@@ -10,26 +10,25 @@
     let quantidadeRespostasCertasNaoSei = 0;
     
 
-    const PrimeirosBotoes = document.getElementById("PrimeirosBotoes");
-    const BotoesRestantes = document.getElementById("BotoesRestantes");
     const botaoNaoSei = document.getElementById("BotaoInglesNaoSei");
     const TesteRapidoBotoes = document.getElementById("TesteRapido");
-    const botaoInglesIniciante = document.getElementById("botaoInglesIniciante");
-    const botaoInglesAmador = document.getElementById("botaoInglesAmador");
-    const botaoInglesFluente = document.getElementById("botaoInglesFluente");
     const vamosBotao = document.getElementById("VamosBotao");
+    const PrimeirosBotoes = document.getElementById("PrimeirosBotoes");
+    const BotoesRestantes = document.getElementById("BotoesRestantes");
 
-    const PrimeiraPerguntaNaoSei = document.getElementById("PrimeiraPerguntaNaoSei");
-    const SegundaPerguntaNaoSei = document.getElementById("SegundaPerguntaNaoSei");
-    const TerceiraPerguntaNaoSei = document.getElementById("TerceiraPerguntaNaoSei");
-    const QuartaPerguntaNaoSei = document.getElementById("QuartaPerguntaNaoSei");
-    const QuintaPerguntaNaoSei = document.getElementById("QuintaPerguntaNaoSei");
+    let usuarioNaoSabeIngles = false;
 
-    const avancarPrimeiraPerguntaNaoSei = document.getElementById("avancarPrimeiraPerguntaNaoSei");
-    const avancarSegundaPerguntaNaoSei = document.getElementById("avancarSegundaPerguntaNaoSei");
-    const avancarTerceiraPerguntaNaoSei = document.getElementById("avancarTerceiraPerguntaNaoSei");
-    const avancarQuartaPerguntaNaoSei = document.getElementById("avancarQuartaPerguntaNaoSei");
-    const avancarQuintaPerguntaNaoSei = document.getElementById("avancarQuintaPerguntaNaoSei");
+    const PrimeiraPergunta = document.getElementById("PrimeiraPerguntaNaoSei");
+    const SegundaPergunta = document.getElementById("SegundaPerguntaNaoSei");
+    const TerceiraPergunta = document.getElementById("TerceiraPerguntaNaoSei");
+    const QuartaPergunta = document.getElementById("QuartaPerguntaNaoSei");
+    const QuintaPergunta = document.getElementById("QuintaPerguntaNaoSei");
+
+    const avancar1 = document.getElementById("avancarPrimeiraPerguntaNaoSei");
+    const avancar2 = document.getElementById("avancarSegundaPerguntaNaoSei");
+    const avancar3 = document.getElementById("avancarTerceiraPerguntaNaoSei");
+    const avancar4 = document.getElementById("avancarQuartaPerguntaNaoSei");
+    const avancar5 = document.getElementById("avancarQuintaPerguntaNaoSei");
 
 
 
@@ -38,63 +37,39 @@
 
     botaoNaoSei.addEventListener("click", () => {
         usuarioNaoSabeIngles = true;
-        usuarioIniciante = false;
-        PrimeirosBotoes.style.display = "none";
-        BotoesRestantes.style.display = "none";
-        TesteRapidoBotoes.style.display = "block";
-    });
-
-    botaoInglesIniciante.addEventListener("click", () => {
-        usuarioNaoSabeIngles = false;
-        usuarioIniciante = true;
-        PrimeirosBotoes.style.display = "none";
-        BotoesRestantes.style.display = "none";
-        TesteRapidoBotoes.style.display = "block";
-    });
-
-    botaoInglesAmador.addEventListener("click", () => {
-        PrimeirosBotoes.style.display = "none";
-        BotoesRestantes.style.display = "none";
-        TesteRapidoBotoes.style.display = "block";
-    });
-
-    botaoInglesFluente.addEventListener("click", () => {
         PrimeirosBotoes.style.display = "none";
         BotoesRestantes.style.display = "none";
         TesteRapidoBotoes.style.display = "block";
     });
 
     vamosBotao.addEventListener("click", () => {
-        TesteRapidoBotoes.style.display = "none";
         if (usuarioNaoSabeIngles) {
-            PrimeiraPerguntaNaoSei.style.display = "block";
-        } 
+            TesteRapidoBotoes.style.display = "none";
+            PrimeiraPergunta.style.display = "block";
+        }
     });
 
-    avancarPrimeiraPerguntaNaoSei.addEventListener("click", () => {
-        PrimeiraPerguntaNaoSei.style.display = "none";
-        SegundaPerguntaNaoSei.style.display = "block";
+    avancar1.addEventListener("click", () => {
+        PrimeiraPergunta.style.display = "none";
+        SegundaPergunta.style.display = "block";
+    });
+    avancar2.addEventListener("click", () => {
+        SegundaPergunta.style.display = "none";
+        TerceiraPergunta.style.display = "block";
+    });
+    avancar3.addEventListener("click", () => {
+        TerceiraPergunta.style.display = "none";
+        QuartaPergunta.style.display = "block";
+    });
+    avancar4.addEventListener("click", () => {
+        QuartaPergunta.style.display = "none";
+        QuintaPergunta.style.display = "block";
     });
 
-    avancarSegundaPerguntaNaoSei.addEventListener("click", () => {
-        SegundaPerguntaNaoSei.style.display = "none";
-        TerceiraPerguntaNaoSei.style.display = "block";
-    });
-
-    avancarTerceiraPerguntaNaoSei.addEventListener("click", () => {
-        TerceiraPerguntaNaoSei.style.display = "none";
-        QuartaPerguntaNaoSei.style.display = "block";
-    });
-
-    avancarQuartaPerguntaNaoSei.addEventListener("click", () => {
-        QuartaPerguntaNaoSei.style.display = "none";
-        QuintaPerguntaNaoSei.style.display = "block";
-    });
-
-    avancarQuintaPerguntaNaoSei.addEventListener("click", () => {
-        QuintaPerguntaNaoSei.style.display = "none";
+    avancar5.addEventListener("click", () => {
+        QuintaPergunta.style.display = "none";
         alert(`Você acertou: ${quantidadeRespostasCertasNaoSei} questões`);
-    });
+    }); //Precisa so ate aqui pra o programa aparecer
 
     document.getElementById("PrimeiraRespostaCertaNaoSei").addEventListener("click", () => {
         quantidadeRespostasCertasNaoSei += 1;
