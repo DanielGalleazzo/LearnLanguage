@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2pfy6tkep6</Fingerprint>
-      <Integrity>CmKTortLcIHwkNDrDxRi6oT7j/2MEHp6vv9jnlpnaTs=</Integrity>
+      <Fingerprint>4tj04tjvr3</Fingerprint>
+      <Integrity>SGwaYcZOJVVNfv6s0AQ42nLpBAtTpU1W2oljzi+GTKc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\scriptPerguntasFluenteIngles.js'))</OriginalItemSpec>

@@ -22,11 +22,11 @@
     const QuartaPergunta = document.getElementById("QuartaPerguntaFluente");
     const QuintaPergunta = document.getElementById("QuintaPerguntaFluente");
 
-    const avancar1 = document.getElementById("avancarPrimeiraPerguntaFluente");
-    const avancar2 = document.getElementById("avancarSegundaPerguntaFluente");
-    const avancar3 = document.getElementById("avancarTerceiraPerguntaFluente");
-    const avancar4 = document.getElementById("avancarQuartaPerguntaFluente");
-    const avancar5 = document.getElementById("avancarQuintaPerguntaFluente");
+    const avancar1 = document.getElementById("avancarPrimeiraFluente");
+    const avancar2 = document.getElementById("avancarSegundaFluente");
+    const avancar3 = document.getElementById("avancarTerceiraFluente");
+    const avancar4 = document.getElementById("avancarQuartaFluente");
+    const avancar5 = document.getElementById("avancarQuintaFluente");
 
     botaoFluente.addEventListener("click", () => {
         usuarioFluente = true;
