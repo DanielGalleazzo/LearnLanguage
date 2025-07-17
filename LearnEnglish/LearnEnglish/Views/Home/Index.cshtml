@@ -1,31 +1,34 @@
-﻿﻿@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bem-vindo ao site que irá te ensinar outro idioma</h1>
-    <p id="VamosComecar">Vamos começar ?</p>
-    <button id="botaoInterfaceSim">Sim</button>
-    <button id="botaoInterfaceNao">Não</button>
+<div class="hero-container">
+    <div class="card">
+        <h1 class="title">Bem-vindo ao site que irá te ensinar outro idioma</h1>
+        <p class="subtitle" id="VamosComecar">Vamos começar?</p>
 
-    <div id="containerNome"></div>
-    <div id="containerIdioma"></div>
-    <div id="containerNao"></div>
-    <div id="MotivoNaoComecar"></div>
+        <div class="button-group">
+            <button id="botaoInterfaceSim" class="btn btn-green">Sim</button>
+            <button id="botaoInterfaceNao" class="btn btn-red">Não</button>
+        </div>
 
-    <div id="divSim">
-        <button id="botaoEnviar" style="display: none;">Enviar</button>
+        <div id="containerNome" class="content-box"></div>
+        <div id="containerIdioma" class="content-box"></div>
+        <div id="containerNao" class="content-box"></div>
+        <div id="MotivoNaoComecar" class="content-box"></div>
+
+        <div id="divSim" class="content-box">
+            <button id="botaoEnviar" class="btn btn-blue" style="display: none;">Enviar</button>
+        </div>
+
+        <div id="divNao" class="content-box">
+            <button id="botaoEnviarNao" class="btn btn-blue" style="display: none;">Enviaraaaa</button>
+        </div>
     </div>
-
-
-    <div id="divNao">
-        <button id="botaoEnviarNao" style="display: none;">Enviaraaaa</button>
-    </div>
-
-
-
 </div>
 
-
+<footer class="footer">
+    <p>&copy; 2025 - LearnEnglish • <a href="#">Privacidade</a></p>
+</footer>
 
 <script src="~/js/site.js"></script>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XRfJDPM16ykhK7i4zW3kTJXApe75q+z3v4Fohlh1TMc=",
+  "Hash": "hqhSnKpRSmtTUfIGdfTmqsnj+z6jXV4Kc+YNmdVnvQ0=",
   "Source": "LearnEnglish",
   "BasePath": "_content/LearnEnglish",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearnEnglish.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\custom.css",
+      "SourceId": "LearnEnglish",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\",
+      "BasePath": "_content/LearnEnglish",
+      "RelativePath": "css/custom#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x0idrkfzv5",
+      "Integrity": "f+hliAsYzEfrUWpfC8zhMvUuIx4ER88x/5vR0O7WIc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
       "Identity": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\site.css",
@@ -1404,6 +1425,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/custom.css",
+      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f+hliAsYzEfrUWpfC8zhMvUuIx4ER88x/5vR0O7WIc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 23:53:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f+hliAsYzEfrUWpfC8zhMvUuIx4ER88x/5vR0O7WIc8="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.x0idrkfzv5.css",
+      "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f+hliAsYzEfrUWpfC8zhMvUuIx4ER88x/5vR0O7WIc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Jul 2025 23:53:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x0idrkfzv5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custom.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f+hliAsYzEfrUWpfC8zhMvUuIx4ER88x/5vR0O7WIc8="
+        }
+      ]
+    },
     {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\site.css",

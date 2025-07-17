@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|solutionrelative:learnenglish\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F501F9C-413F-4C9E-A79A-1672BB325AB0}|LearnEnglish\\LearnEnglish.csproj|c:\\users\\danie\\desktop\\learnenglish\\learnenglish\\learnenglish\\views\\html\\ingles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "LearnEnglish\\wwwroot\\css\\custom.css",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "LearnEnglish\\wwwroot\\css\\custom.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-17T23:51:30.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LearnEnglish\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LearnEnglish\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T23:50:11.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\appsettings.json",
               "RelativeDocumentMoniker": "LearnEnglish\\appsettings.json",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "scriptPerguntasFluenteIngles.js",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasFluenteIngles.js",
               "RelativeDocumentMoniker": "LearnEnglish\\wwwroot\\js\\scriptPerguntasFluenteIngles.js",
@@ -51,12 +85,11 @@
               "RelativeToolTip": "LearnEnglish\\wwwroot\\js\\scriptPerguntasFluenteIngles.js",
               "ViewState": "AgIAACEAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-13T18:34:36.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T18:34:36.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "scriptPerguntasAmadorIngles.js",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\wwwroot\\js\\scriptPerguntasAmadorIngles.js",
               "RelativeDocumentMoniker": "LearnEnglish\\wwwroot\\js\\scriptPerguntasAmadorIngles.js",
@@ -64,12 +97,11 @@
               "RelativeToolTip": "LearnEnglish\\wwwroot\\js\\scriptPerguntasAmadorIngles.js",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-13T01:53:22.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T01:53:22.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Ingles.cshtml",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\LearnEnglish\\LearnEnglish\\LearnEnglish\\Views\\Html\\Ingles.cshtml",
               "RelativeDocumentMoniker": "LearnEnglish\\Views\\Html\\Ingles.cshtml",
@@ -77,8 +109,7 @@
               "RelativeToolTip": "LearnEnglish\\Views\\Html\\Ingles.cshtml",
               "ViewState": "AgIAAPQAAAAAAAAAAAAUwMEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-04T00:09:45.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T00:09:45.71Z"
             }
           ]
         }
